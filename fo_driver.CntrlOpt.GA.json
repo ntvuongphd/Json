@@ -266,14 +266,14 @@
             },
             {
                 "BoxImin": 10,
-                "BoxImax": 21,
+                "BoxImax": 20,
                 "BoxJmin": 6,
-                "BoxJmax": 96,
+                "BoxJmax": 12,
                 "BoxKmin": 1,
                 "BoxKmax": 43,
                 "Type": "ReservoirBoundary",
                 "Wells": [
-                    "CER WELL", "TOR WELL", "GAS WELL"
+                    "CER WELL"
                 ]
             }
         ],
