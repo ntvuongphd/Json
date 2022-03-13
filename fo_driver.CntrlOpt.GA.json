@@ -24,21 +24,7 @@
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
-                        "TimeStep": 17056
-                    },
-                    {
-                        "BHP": 460,
-                        "IsVariable": true,
-                        "Mode": "Rate",
-                        "Rate": 2500,
                         "TimeStep": 17421
-                    },
-                    {
-                        "BHP": 460,
-                        "IsVariable": true,
-                        "Mode": "Rate",
-                        "Rate": 2500,
-                        "TimeStep": 17787
                     },
                     {
                         "BHP": 460,
@@ -52,21 +38,7 @@
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
-                        "TimeStep": 18517
-                    },
-                    {
-                        "BHP": 460,
-                        "IsVariable": true,
-                        "Mode": "Rate",
-                        "Rate": 2500,
                         "TimeStep": 18623
-                    },
-                    {
-                        "BHP": 460,
-                        "IsVariable": true,
-                        "Mode": "Rate",
-                        "Rate": 2500,
-                        "TimeStep": 18655
                     }
                 ],
                 "DefinitionType": "WellSpline",
@@ -104,13 +76,6 @@
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
-                        "TimeStep": 17421
-                    },
-                    {
-                        "BHP": 460,
-                        "IsVariable": true,
-                        "Mode": "Rate",
-                        "Rate": 2500,
                         "TimeStep": 17787
                     },
                     {
@@ -118,21 +83,7 @@
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
-                        "TimeStep": 17863
-                    },
-                    {
-                        "BHP": 460,
-                        "IsVariable": true,
-                        "Mode": "Rate",
-                        "Rate": 2500,
                         "TimeStep": 18517
-                    },
-                    {
-                        "BHP": 460,
-                        "IsVariable": true,
-                        "Mode": "Rate",
-                        "Rate": 2500,
-                        "TimeStep": 18623
                     },
                     {
                         "BHP": 460,
