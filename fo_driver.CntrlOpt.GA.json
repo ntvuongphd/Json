@@ -270,7 +270,7 @@
                 "BoxJmin": 6,
                 "BoxJmax": 12,
                 "BoxKmin": 1,
-                "BoxKmax": 10,
+                "BoxKmax": 3,
                 "Type": "ReservoirBoundary",
                 "Wells": [
                     "CER WELL"
