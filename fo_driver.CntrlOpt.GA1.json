@@ -14,7 +14,7 @@
             18655
         ],
         "Reservoir": {
-            "Type": "Flow"
+            "Type": "ECLIPSE"
         },
         "Wells": [
             {
@@ -41,22 +41,18 @@
                         "TimeStep": 18623
                     }
                 ],
-                "DefinitionType": "WellSpline",
+                "DefinitionType": "WellBlocks",
                 "Group": "G1",
                 "Name": "TOR WELL",
                 "PreferredPhase": "Water",
-                "SplinePointArray": [
+                "WellBlocks": [
                     {
                         "IsVariable": true,
-                        "x": 400.0,
-                        "y": 200.0,
-                        "z": 4017.44
-                    },
-                    {
-                        "IsVariable": true,
-                        "x": 400.0,
-                        "y": 200.0,
-                        "z": 4097.49
+                        "i": 10, "j": 96, "k": 1,
+                        "Completion": {
+                            "Type": "Perforation",
+                            "TransmissibilityFactor": 0.1
+                        }
                     }
                 ],
                 "Type": "Injector",
@@ -93,22 +89,18 @@
                         "TimeStep": 18655
                     }
                 ],
-                "DefinitionType": "WellSpline",
+                "DefinitionType": "WellBlocks",
                 "Group": "G2",
                 "Name": "GAS WELL",
                 "PreferredPhase": "Gas",
-                "SplinePointArray": [
+                "WellBlocks": [
                     {
                         "IsVariable": true,
-                        "x": 400.0,
-                        "y": 200.0,
-                        "z": 4017.44
-                    },
-                    {
-                        "IsVariable": true,
-                        "x": 400.0,
-                        "y": 200.0,
-                        "z": 4097.49
+                        "i": 10, "j": 96, "k": 1,
+                        "Completion": {
+                            "Type": "Perforation",
+                            "TransmissibilityFactor": 0.1
+                        }
                     }
                 ],
                 "Type": "Injector",
@@ -166,22 +158,18 @@
                         "TimeStep": 18655
                     }
                 ],
-                "DefinitionType": "WellSpline",
+                "DefinitionType": "WellBlocks",
                 "Group": "G3",
                 "Name": "CER WELL",
                 "PreferredPhase": "Oil",
-                "SplinePointArray": [
+                "WellBlocks": [
                     {
                         "IsVariable": true,
-                        "x": 600.0,
-                        "y": 3800.0,
-                        "z": 4332.46
-                    },
-                    {
-                        "IsVariable": true,
-                        "x": 600.0,
-                        "y": 3800.0,
-                        "z": 4412.46
+                        "i": 15, "j": 6, "k": 1,
+                        "Completion": {
+                            "Type": "Perforation",
+                            "TransmissibilityFactor": 0.1
+                        }
                     }
                 ],
                 "Type": "Producer",
