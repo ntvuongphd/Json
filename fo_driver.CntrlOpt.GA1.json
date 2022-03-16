@@ -7,11 +7,11 @@
         "ControlTimes": [
             17056,
             17421,
-            17787,
-            17863,
-            18517,
-            18623,
-            18655
+            17786,
+            18152,
+            18228,
+            18882,
+            18988
         ],
         "Reservoir": {
             "Type": "ECLIPSE"
@@ -25,20 +25,6 @@
                         "Mode": "Rate",
                         "Rate": 2500,
                         "TimeStep": 17421
-                    },
-                    {
-                        "BHP": 460,
-                        "IsVariable": true,
-                        "Mode": "Rate",
-                        "Rate": 2500,
-                        "TimeStep": 17863
-                    },
-                    {
-                        "BHP": 460,
-                        "IsVariable": true,
-                        "Mode": "Rate",
-                        "Rate": 2500,
-                        "TimeStep": 18623
                     }
                 ],
                 "DefinitionType": "WellBlocks",
@@ -66,27 +52,6 @@
                         "Mode": "Rate",
                         "Rate": 2500,
                         "TimeStep": 17056
-                    },
-                    {
-                        "BHP": 460,
-                        "IsVariable": true,
-                        "Mode": "Rate",
-                        "Rate": 2500,
-                        "TimeStep": 17787
-                    },
-                    {
-                        "BHP": 460,
-                        "IsVariable": true,
-                        "Mode": "Rate",
-                        "Rate": 2500,
-                        "TimeStep": 18517
-                    },
-                    {
-                        "BHP": 460,
-                        "IsVariable": true,
-                        "Mode": "Rate",
-                        "Rate": 2500,
-                        "TimeStep": 18655
                     }
                 ],
                 "DefinitionType": "WellBlocks",
@@ -114,48 +79,6 @@
                         "Mode": "BHP",
                         "Rate": 2000,
                         "TimeStep": 17056
-                    },
-                    {
-                        "BHP": 470,
-                        "IsVariable": true,
-                        "Mode": "BHP",
-                        "Rate": 2000,
-                        "TimeStep": 17421
-                    },
-                    {
-                        "BHP": 470,
-                        "IsVariable": true,
-                        "Mode": "BHP",
-                        "Rate": 2000,
-                        "TimeStep": 17787
-                    },
-                    {
-                        "BHP": 470,
-                        "IsVariable": true,
-                        "Mode": "BHP",
-                        "Rate": 2000,
-                        "TimeStep": 17863
-                    },
-                    {
-                        "BHP": 470,
-                        "IsVariable": true,
-                        "Mode": "BHP",
-                        "Rate": 2000,
-                        "TimeStep": 18517
-                    },
-                    {
-                        "BHP": 470,
-                        "IsVariable": true,
-                        "Mode": "BHP",
-                        "Rate": 2000,
-                        "TimeStep": 18623
-                    },
-                    {
-                        "BHP": 470,
-                        "IsVariable": true,
-                        "Mode": "BHP",
-                        "Rate": 2000,
-                        "TimeStep": 18655
                     }
                 ],
                 "DefinitionType": "WellBlocks",
@@ -209,7 +132,7 @@
                 "BoxJmin": 6,
                 "BoxJmax": 12,
                 "BoxKmin": 1,
-                "BoxKmax": 1,
+                "BoxKmax": 3,
                 "Type": "ReservoirBoundary",
                 "Wells": [
                     "CER WELL"
