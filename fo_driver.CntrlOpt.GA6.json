@@ -1,6 +1,6 @@
 {
     "Global": {
-        "BookkeeperTolerance": 1e-03,
+        "BookkeeperTolerance": 1e-08,
         "Name": "D5T01WF95U"
     },
     "Model": {
