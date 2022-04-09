@@ -6,13 +6,12 @@
     "Model": {
         "ControlTimes": [
             0,
-            17056,
-            17421,
-            17786,
-            18152,
-            18516,
-            18882,
-            19246
+            365,
+            730,
+            1095,
+            1460,
+            1825,
+            2190
         ],
         "Reservoir": {
             "Type": "Flow"
@@ -25,7 +24,7 @@
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
-                        "TimeStep": 17056
+                        "TimeStep": 0
                     }
                 ],
                 "DefinitionType": "WellBlocks",
@@ -52,7 +51,7 @@
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
-                        "TimeStep": 17056
+                        "TimeStep": 0
                     }
                 ],
                 "DefinitionType": "WellBlocks",
@@ -79,7 +78,7 @@
                         "IsVariable": true,
                         "Mode": "BHP",
                         "Rate": 2000,
-                        "TimeStep": 17056
+                        "TimeStep": 0
                     }
                 ],
                 "DefinitionType": "WellBlocks",
