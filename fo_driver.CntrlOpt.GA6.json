@@ -20,7 +20,7 @@
             {
                 "Controls": [
                     {
-                        "BHP": 460,
+                        "BHP": 150,
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
@@ -47,7 +47,7 @@
             {
                 "Controls": [
                     {
-                        "BHP": 460,
+                        "BHP": 150,
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
@@ -74,7 +74,7 @@
             {         
                 "Controls": [
                     {
-                        "BHP": 470,
+                        "BHP": 80,
                         "IsVariable": true,
                         "Mode": "BHP",
                         "Rate": 2000,
@@ -104,7 +104,7 @@
         "Constraints": [
             {
                 "Max": 700,
-                "Min": 80,
+                "Min": 150,
                 "Type": "BHP",
                 "Wells": [
                     "TOR WELL"
@@ -112,7 +112,7 @@
             },
             {
                 "Max": 700,
-                "Min": 80,
+                "Min": 150,
                 "Type": "BHP",
                 "Wells": [
                     "GAS WELL"
@@ -132,7 +132,7 @@
                 "BoxJmin": 6,
                 "BoxJmax": 12,
                 "BoxKmin": 1,
-                "BoxKmax": 3,
+                "BoxKmax": 43,
                 "Type": "ReservoirBoundary",
                 "Wells": [
                     "CER WELL"
