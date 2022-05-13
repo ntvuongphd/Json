@@ -258,12 +258,12 @@
             "CrossoverProbability": 0.1,
             "DecayRate": 4.0,
             "DiscardParameter": -1,
-            "LowerBound": -10,
+            "LowerBound": -20,
             "MaxGenerations": 30,
             "MutationStrength": 0.25,
-            "PopulationSize": 24,
+            "PopulationSize": 36,
             "StagnationLimit": 0.25,
-            "UpperBound": 10
+            "UpperBound": 20
         },
         "Type": "GeneticAlgorithm"
     },
