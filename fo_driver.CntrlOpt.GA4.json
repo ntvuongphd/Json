@@ -196,22 +196,6 @@
                 "Min": 80,
                 "Type": "BHP",
                 "Wells": [
-                    "TOR WELL"
-                ]
-            },
-            {
-                "Max": 700,
-                "Min": 80,
-                "Type": "BHP",
-                "Wells": [
-                    "GAS WELL"
-                ]
-            },
-            {
-                "Max": 700,
-                "Min": 80,
-                "Type": "BHP",
-                "Wells": [
                     "CER WELL"
                 ]
             }
