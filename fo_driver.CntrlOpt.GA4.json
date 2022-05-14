@@ -208,12 +208,12 @@
                 ]
             },
             {
-                "BoxImin": 10,
-                "BoxImax": 20,
-                "BoxJmin": 6,
-                "BoxJmax": 12,
+                "BoxImin": 1,
+                "BoxImax": 25,
+                "BoxJmin": 1,
+                "BoxJmax": 100,
                 "BoxKmin": 1,
-                "BoxKmax": 3,
+                "BoxKmax": 43,
                 "Type": "ReservoirBoundary",
                 "Wells": [
                     "CER WELL"
