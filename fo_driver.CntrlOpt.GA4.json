@@ -190,6 +190,36 @@
         ]
     },
     "Optimizer": {
+        "Constraints": [
+            {
+                "Max": 3200,
+                "Min": 60,
+                "Type": "Rate",
+                "Wells": [
+                    "TOR WELL", "GAS WELL"
+                ]
+            },
+            {
+                "Max": 700,
+                "Min": 80,
+                "Type": "BHP",
+                "Wells": [
+                    "CER WELL"
+                ]
+            },
+            {
+                "BoxImin": 10,
+                "BoxImax": 20,
+                "BoxJmin": 6,
+                "BoxJmax": 12,
+                "BoxKmin": 1,
+                "BoxKmax": 1,
+                "Type": "ReservoirBoundary",
+                "Wells": [
+                    "CER WELL"
+                ]
+            }
+        ],
         "Mode": "Maximize",
         "Objective": {
             "NPVComponents": [
