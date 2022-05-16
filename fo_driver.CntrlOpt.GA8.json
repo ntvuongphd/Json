@@ -172,13 +172,13 @@
                 "PreferredPhase": "Oil",
                 "SplinePointArray": [
                     {
-                        "IsVariable": false,
+                        "IsVariable": true,
                         "x": 600.0,
                         "y": 3800.0,
                         "z": 4332.46
                     },
                     {
-                        "IsVariable": false,
+                        "IsVariable": true,
                         "x": 600.0,
                         "y": 3800.0,
                         "z": 4412.46
@@ -203,6 +203,18 @@
                 "Max": 700,
                 "Min": 80,
                 "Type": "BHP",
+                "Wells": [
+                    "CER WELL"
+                ]
+            },
+            {
+                "BoxImin": 10,
+                "BoxImax": 20,
+                "BoxJmin": 6,
+                "BoxJmax": 12,
+                "BoxKmin": 1,
+                "BoxKmax": 2,
+                "Type": "ReservoirBoundary",
                 "Wells": [
                     "CER WELL"
                 ]
