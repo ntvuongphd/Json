@@ -5,13 +5,13 @@
     },
     "Model": {
         "ControlTimes": [
-            17056,
-            17421,
-            17787,
-            17863,
-            18517,
-            18623,
-            18655
+            0,
+            365,
+            730,
+            1095,
+            1460,
+            1825,
+            2190
         ],
         "Reservoir": {
             "Type": "Flow"
@@ -20,25 +20,11 @@
             {
                 "Controls": [
                     {
-                        "BHP": 460,
+                        "BHP": 150,
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
-                        "TimeStep": 17421
-                    },
-                    {
-                        "BHP": 460,
-                        "IsVariable": true,
-                        "Mode": "Rate",
-                        "Rate": 2500,
-                        "TimeStep": 17863
-                    },
-                    {
-                        "BHP": 460,
-                        "IsVariable": true,
-                        "Mode": "Rate",
-                        "Rate": 2500,
-                        "TimeStep": 18623
+                        "TimeStep": 0
                     }
                 ],
                 "DefinitionType": "WellSpline",
@@ -65,32 +51,11 @@
             {
                 "Controls": [
                     {
-                        "BHP": 460,
+                        "BHP": 150,
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
-                        "TimeStep": 17056
-                    },
-                    {
-                        "BHP": 460,
-                        "IsVariable": true,
-                        "Mode": "Rate",
-                        "Rate": 2500,
-                        "TimeStep": 17787
-                    },
-                    {
-                        "BHP": 460,
-                        "IsVariable": true,
-                        "Mode": "Rate",
-                        "Rate": 2500,
-                        "TimeStep": 18517
-                    },
-                    {
-                        "BHP": 460,
-                        "IsVariable": true,
-                        "Mode": "Rate",
-                        "Rate": 2500,
-                        "TimeStep": 18655
+                        "TimeStep": 0
                     }
                 ],
                 "DefinitionType": "WellSpline",
@@ -117,53 +82,11 @@
             {         
                 "Controls": [
                     {
-                        "BHP": 470,
+                        "BHP": 80,
                         "IsVariable": true,
                         "Mode": "BHP",
                         "Rate": 2000,
-                        "TimeStep": 17056
-                    },
-                    {
-                        "BHP": 470,
-                        "IsVariable": true,
-                        "Mode": "BHP",
-                        "Rate": 2000,
-                        "TimeStep": 17421
-                    },
-                    {
-                        "BHP": 470,
-                        "IsVariable": true,
-                        "Mode": "BHP",
-                        "Rate": 2000,
-                        "TimeStep": 17787
-                    },
-                    {
-                        "BHP": 470,
-                        "IsVariable": true,
-                        "Mode": "BHP",
-                        "Rate": 2000,
-                        "TimeStep": 17863
-                    },
-                    {
-                        "BHP": 470,
-                        "IsVariable": true,
-                        "Mode": "BHP",
-                        "Rate": 2000,
-                        "TimeStep": 18517
-                    },
-                    {
-                        "BHP": 470,
-                        "IsVariable": true,
-                        "Mode": "BHP",
-                        "Rate": 2000,
-                        "TimeStep": 18623
-                    },
-                    {
-                        "BHP": 470,
-                        "IsVariable": true,
-                        "Mode": "BHP",
-                        "Rate": 2000,
-                        "TimeStep": 18655
+                        "TimeStep": 0
                     }
                 ],
                 "DefinitionType": "WellSpline",
