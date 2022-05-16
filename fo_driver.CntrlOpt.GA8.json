@@ -199,6 +199,18 @@
                 "Wells": [
                     "CER WELL"
                 ]
+            },
+            {
+                "BoxImin": 10,
+                "BoxImax": 20,
+                "BoxJmin": 6,
+                "BoxJmax": 12,
+                "BoxKmin": 1,
+                "BoxKmax": 2,
+                "Type": "ReservoirBoundary",
+                "Wells": [
+                    "CER WELL"
+                ]
             }
         ],
         "Mode": "Maximize",
