@@ -33,7 +33,7 @@
                 "PreferredPhase": "Water",
                 "WellBlocks": [
                     {
-                        "IsVariable": true,
+                        "IsVariable": false,
                         "i": 10, "j": 96, "k": 1,
                         "Completion": {
                             "Type": "Perforation",
@@ -60,7 +60,7 @@
                 "PreferredPhase": "Gas",
                 "WellBlocks": [
                     {
-                        "IsVariable": true,
+                        "IsVariable": false,
                         "i": 10, "j": 96, "k": 1,
                         "Completion": {
                             "Type": "Perforation",
@@ -103,17 +103,17 @@
     "Optimizer": {
         "Constraints": [
             {
-                "Max": 700,
-                "Min": 150,
-                "Type": "BHP",
+                "Max": 3200,
+                "Min": 100,
+                "Type": "Rate",
                 "Wells": [
                     "TOR WELL"
                 ]
             },
             {
-                "Max": 700,
-                "Min": 150,
-                "Type": "BHP",
+                "Max": 3200,
+                "Min": 100,
+                "Type": "Rate",
                 "Wells": [
                     "GAS WELL"
                 ]
@@ -143,7 +143,7 @@
         "Objective": {
             "NPVComponents": [
                 {
-                    "COMMENT": "Coefficient: 80 $/barrel * 6.2898 barrel/sm3 = 377.388",
+                    "COMMENT": "Coefficient: 100 $/barrel * 6.2898 barrel/sm3 = 377.388",
                     "Coefficient": 377.388,
                     "DiscountFactor": 0.08,
                     "Interval": "Yearly",
@@ -181,12 +181,12 @@
             "CrossoverProbability": 0.1,
             "DecayRate": 4.0,
             "DiscardParameter": -1,
-            "LowerBound": -10,
+            "LowerBound": -20,
             "MaxGenerations": 30,
             "MutationStrength": 0.25,
-            "PopulationSize": 24,
+            "PopulationSize": 36,
             "StagnationLimit": 0.25,
-            "UpperBound": 10
+            "UpperBound": 20
         },
         "Type": "GeneticAlgorithm"
     },
