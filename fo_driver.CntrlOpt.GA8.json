@@ -191,8 +191,8 @@
             {
                 "BoxImin": 10,
                 "BoxImax": 20,
-                "BoxJmin": 6,
-                "BoxJmax": 12,
+                "BoxJmin": 4,
+                "BoxJmax": 10,
                 "BoxKmin": 1,
                 "BoxKmax": 1,
                 "Type": "ReservoirBoundary",
