@@ -25,6 +25,7 @@
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
+                        "State": "Open",
                         "TimeStep": 0
                     },
                     {
@@ -32,6 +33,7 @@
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
+                        "State": "Open",
                         "TimeStep": 17056
                     },
                     {
@@ -39,6 +41,7 @@
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
+                        "State": "Open",
                         "TimeStep": 17421
                     },
                     {
@@ -46,6 +49,7 @@
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
+                        "State": "Open",
                         "TimeStep": 17863
                     },
                     {
@@ -53,6 +57,7 @@
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
+                        "State": "Open",
                         "TimeStep": 18623
                     }
                 ],
@@ -84,6 +89,7 @@
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
+                        "State": "Open",
                         "TimeStep": 17056
                     },
                     {
@@ -91,6 +97,7 @@
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
+                        "State": "Open",
                         "TimeStep": 17787
                     },
                     {
@@ -98,12 +105,14 @@
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
+                        "State": "Open",
                         "TimeStep": 18517
                     },
                     {
                         "BHP": 460,
                         "IsVariable": true,
                         "Mode": "Rate",
+                        "State": "Open",
                         "Rate": 2500,
                         "TimeStep": 18655
                     }
@@ -136,6 +145,7 @@
                         "IsVariable": true,
                         "Mode": "BHP",
                         "Rate": 2000,
+                        "State": "Open",
                         "TimeStep": 0
                     },
                     {
@@ -143,6 +153,7 @@
                         "IsVariable": true,
                         "Mode": "BHP",
                         "Rate": 2000,
+                        "State": "Open",
                         "TimeStep": 17056
                     },
                     {
@@ -150,6 +161,7 @@
                         "IsVariable": true,
                         "Mode": "BHP",
                         "Rate": 2000,
+                        "State": "Open",
                         "TimeStep": 17421
                     },
                     {
@@ -157,6 +169,7 @@
                         "IsVariable": true,
                         "Mode": "BHP",
                         "Rate": 2000,
+                        "State": "Open",
                         "TimeStep": 17787
                     },
                     {
@@ -164,6 +177,7 @@
                         "IsVariable": true,
                         "Mode": "BHP",
                         "Rate": 2000,
+                        "State": "Open",
                         "TimeStep": 17863
                     },
                     {
@@ -171,6 +185,7 @@
                         "IsVariable": true,
                         "Mode": "BHP",
                         "Rate": 2000,
+                        "State": "Open",
                         "TimeStep": 18517
                     },
                     {
@@ -178,6 +193,7 @@
                         "IsVariable": true,
                         "Mode": "BHP",
                         "Rate": 2000,
+                        "State": "Open",
                         "TimeStep": 18623
                     },
                     {
@@ -185,6 +201,7 @@
                         "IsVariable": true,
                         "Mode": "BHP",
                         "Rate": 2000,
+                        "State": "Open",
                         "TimeStep": 18655
                     }
                 ],
