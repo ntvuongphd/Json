@@ -6,12 +6,13 @@
     "Model": {
         "ControlTimes": [
             0,
-            365,
-            730,
-            1095,
-            1460,
-            1825,
-            2190
+            17056,
+            17421,
+            17787,
+            17863,
+            18517,
+            18623,
+            18655
         ],
         "Reservoir": {
             "Type": "Flow"
@@ -20,39 +21,57 @@
             {
                 "Controls": [
                     {
-                        "BHP": 200,
+                        "BHP": 460,
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
-                        "TimeStep": 730
+                        "TimeStep": 0
                     },
                     {
-                        "BHP": 200,
+                        "BHP": 460,
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
-                        "TimeStep": 1460
+                        "TimeStep": 17056
                     },
                     {
-                        "BHP": 200,
+                        "BHP": 460,
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
-                        "TimeStep": 2190
+                        "TimeStep": 17421
+                    },
+                    {
+                        "BHP": 460,
+                        "IsVariable": true,
+                        "Mode": "Rate",
+                        "Rate": 2500,
+                        "TimeStep": 17863
+                    },
+                    {
+                        "BHP": 460,
+                        "IsVariable": true,
+                        "Mode": "Rate",
+                        "Rate": 2500,
+                        "TimeStep": 18623
                     }
                 ],
-                "DefinitionType": "WellBlocks",
+                "DefinitionType": "WellSpline",
                 "Group": "G1",
                 "Name": "TOR WELL",
                 "PreferredPhase": "Water",
-                "WellBlocks": [
+                "SplinePointArray": [
                     {
                         "IsVariable": false,
-                        "i": 10, "j": 96, "k": 1,
-                        "Completion": {
-                            "Type": "Perforation",
-                            "TransmissibilityFactor": 0.1
-                        }
+                        "x": 400.0,
+                        "y": 200.0,
+                        "z": 4017.44
+                    },
+                    {
+                        "IsVariable": false,
+                        "x": 400.0,
+                        "y": 200.0,
+                        "z": 4097.49
                     }
                 ],
                 "Type": "Injector",
@@ -61,39 +80,50 @@
             {
                 "Controls": [
                     {
-                        "BHP": 200,
+                        "BHP": 460,
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
-                        "TimeStep": 365
+                        "TimeStep": 17056
                     },
                     {
-                        "BHP": 200,
+                        "BHP": 460,
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
-                        "TimeStep": 1095
+                        "TimeStep": 17787
                     },
                     {
-                        "BHP": 200,
+                        "BHP": 460,
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
-                        "TimeStep": 1825
+                        "TimeStep": 18517
+                    },
+                    {
+                        "BHP": 460,
+                        "IsVariable": true,
+                        "Mode": "Rate",
+                        "Rate": 2500,
+                        "TimeStep": 18655
                     }
                 ],
-                "DefinitionType": "WellBlocks",
+                "DefinitionType": "WellSpline",
                 "Group": "G2",
                 "Name": "GAS WELL",
                 "PreferredPhase": "Gas",
-                "WellBlocks": [
+                "SplinePointArray": [
                     {
                         "IsVariable": false,
-                        "i": 10, "j": 96, "k": 1,
-                        "Completion": {
-                            "Type": "Perforation",
-                            "TransmissibilityFactor": 0.1
-                        }
+                        "x": 400.0,
+                        "y": 200.0,
+                        "z": 4017.44
+                    },
+                    {
+                        "IsVariable": false,
+                        "x": 400.0,
+                        "y": 200.0,
+                        "z": 4097.49
                     }
                 ],
                 "Type": "Injector",
@@ -102,67 +132,78 @@
             {         
                 "Controls": [
                     {
-                        "BHP": 80,
+                        "BHP": 470,
                         "IsVariable": true,
                         "Mode": "BHP",
                         "Rate": 2000,
                         "TimeStep": 0
                     },
                     {
-                        "BHP": 80,
+                        "BHP": 470,
                         "IsVariable": true,
                         "Mode": "BHP",
                         "Rate": 2000,
-                        "TimeStep": 365
+                        "TimeStep": 17056
                     },
                     {
-                        "BHP": 80,
+                        "BHP": 470,
                         "IsVariable": true,
                         "Mode": "BHP",
                         "Rate": 2000,
-                        "TimeStep": 730
+                        "TimeStep": 17421
                     },
                     {
-                        "BHP": 80,
+                        "BHP": 470,
                         "IsVariable": true,
                         "Mode": "BHP",
                         "Rate": 2000,
-                        "TimeStep": 1095
+                        "TimeStep": 17787
                     },
                     {
-                        "BHP": 80,
+                        "BHP": 470,
                         "IsVariable": true,
                         "Mode": "BHP",
                         "Rate": 2000,
-                        "TimeStep": 1460
+                        "TimeStep": 17863
                     },
                     {
-                        "BHP": 80,
+                        "BHP": 470,
                         "IsVariable": true,
                         "Mode": "BHP",
                         "Rate": 2000,
-                        "TimeStep": 1825
+                        "TimeStep": 18517
                     },
                     {
-                        "BHP": 80,
+                        "BHP": 470,
                         "IsVariable": true,
                         "Mode": "BHP",
                         "Rate": 2000,
-                        "TimeStep": 2190
+                        "TimeStep": 18623
+                    },
+                    {
+                        "BHP": 470,
+                        "IsVariable": true,
+                        "Mode": "BHP",
+                        "Rate": 2000,
+                        "TimeStep": 18655
                     }
                 ],
-                "DefinitionType": "WellBlocks",
+                "DefinitionType": "WellSpline",
                 "Group": "G3",
                 "Name": "CER WELL",
                 "PreferredPhase": "Oil",
-                "WellBlocks": [
+                "SplinePointArray": [
                     {
-                        "IsVariable": true,
-                        "i": 15, "j": 6, "k": 1,
-                        "Completion": {
-                            "Type": "Perforation",
-                            "TransmissibilityFactor": 0.1
-                        }
+                        "IsVariable": false,
+                        "x": 600.0,
+                        "y": 3800.0,
+                        "z": 4332.46
+                    },
+                    {
+                        "IsVariable": false,
+                        "x": 600.0,
+                        "y": 3800.0,
+                        "z": 4412.46
                     }
                 ],
                 "Type": "Producer",
@@ -181,21 +222,9 @@
                 ]
             },
             {
-                "Max": 650,
+                "Max": 700,
                 "Min": 80,
                 "Type": "BHP",
-                "Wells": [
-                    "CER WELL"
-                ]
-            },
-            {
-                "BoxImin": 10,
-                "BoxImax": 20,
-                "BoxJmin": 4,
-                "BoxJmax": 10,
-                "BoxKmin": 1,
-                "BoxKmax": 1,
-                "Type": "ReservoirBoundary",
                 "Wells": [
                     "CER WELL"
                 ]
@@ -205,30 +234,33 @@
         "Objective": {
             "NPVComponents": [
                 {
-                    "COMMENT": "Coefficient: 80 $/barrel * 6.2898 barrel/sm3 = 377.388",
-                    "Coefficient": 377.388,
+                    "COMMENT": "Coefficient: 100 $/barrel * 6.2898 barrel/sm3 = 628.98",
+                    "Coefficient": 628.98,
                     "DiscountFactor": 0.08,
                     "Interval": "Yearly",
                     "Property": "CumulativeOilProduction",
                     "TimeStep": -1,
+                    "IsWellProp": true,
                     "UseDiscountFactor": true
                 },
                 {
-                    "COMMENT": "Coefficient: -6 $/barrel * 6.2898 barrel/sm3 = -37.738",
-                    "Coefficient": -37.738,
+                    "COMMENT": "Coefficient: -3 $/barrel * 6.2898 barrel/sm3 = -18.869",
+                    "Coefficient": -18.869,
                     "DiscountFactor": 0.08,
                     "Interval": "Yearly",
                     "Property": "CumulativeWaterProduction",
                     "TimeStep": -1,
+                    "IsWellProp": true,
                     "UseDiscountFactor": true
                 },
                 {
-                    "COMMENT": "Coefficient: -2 $/barrel * 6.2898 barrel/sm3 = -12.580",
-                    "Coefficient": -12.580,
+                    "COMMENT": "Coefficient: -5 $/barrel * 6.2898 barrel/sm3 = -31.449",
+                    "Coefficient": -31.449,
                     "DiscountFactor": 0.08,
                     "Interval": "Yearly",
                     "Property": "CumulativeWaterInjection",
                     "TimeStep": -1,
+                    "IsWellProp": true,
                     "UseDiscountFactor": true
                 }
             ],
