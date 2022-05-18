@@ -25,6 +25,20 @@
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
+                        "TimeStep": 0
+                    },
+                    {
+                        "BHP": 460,
+                        "IsVariable": true,
+                        "Mode": "Rate",
+                        "Rate": 2500,
+                        "TimeStep": 17056
+                    },
+                    {
+                        "BHP": 460,
+                        "IsVariable": true,
+                        "Mode": "Rate",
+                        "Rate": 2500,
                         "TimeStep": 17421
                     },
                     {
