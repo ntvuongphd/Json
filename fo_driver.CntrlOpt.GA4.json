@@ -212,8 +212,8 @@
         "Objective": {
             "NPVComponents": [
                 {
-                    "COMMENT": "Coefficient: 80 $/barrel * 6.2898 barrel/sm3 = 377.388",
-                    "Coefficient": 377.388,
+                    "COMMENT": "Coefficient: 100 $/barrel * 6.2898 barrel/sm3 = 628.98",
+                    "Coefficient": 628.98,
                     "DiscountFactor": 0.08,
                     "Interval": "Yearly",
                     "Property": "CumulativeOilProduction",
@@ -221,8 +221,8 @@
                     "UseDiscountFactor": true
                 },
                 {
-                    "COMMENT": "Coefficient: -6 $/barrel * 6.2898 barrel/sm3 = -37.738",
-                    "Coefficient": -37.738,
+                    "COMMENT": "Coefficient: -3 $/barrel * 6.2898 barrel/sm3 = -18.869",
+                    "Coefficient": -18.869,
                     "DiscountFactor": 0.08,
                     "Interval": "Yearly",
                     "Property": "CumulativeWaterProduction",
@@ -230,8 +230,8 @@
                     "UseDiscountFactor": true
                 },
                 {
-                    "COMMENT": "Coefficient: -2 $/barrel * 6.2898 barrel/sm3 = -12.580",
-                    "Coefficient": -12.580,
+                    "COMMENT": "Coefficient: -5 $/barrel * 6.2898 barrel/sm3 = -31.449",
+                    "Coefficient": -31.449,
                     "DiscountFactor": 0.08,
                     "Interval": "Yearly",
                     "Property": "CumulativeWaterInjection",
@@ -241,7 +241,7 @@
             ],
             "SeparateHorizontalAndVertical": false,
             "Type": "NPV",
-            "UseWellCost": true,
+            "UseWellCost": false,
             "WellCost": 7500,
             "WellCostXY": 10000,
             "WellCostZ": 5000
