@@ -5,6 +5,7 @@
     },
     "Model": {
         "ControlTimes": [
+            0,
             17056,
             17421,
             17787,
@@ -116,6 +117,13 @@
             },
             {         
                 "Controls": [
+                    {
+                        "BHP": 470,
+                        "IsVariable": true,
+                        "Mode": "BHP",
+                        "Rate": 2000,
+                        "TimeStep": 0
+                    },
                     {
                         "BHP": 470,
                         "IsVariable": true,
@@ -241,7 +249,7 @@
             ],
             "SeparateHorizontalAndVertical": false,
             "Type": "NPV",
-            "UseWellCost": false,
+            "UseWellCost": true,
             "WellCost": 7500,
             "WellCostXY": 10000,
             "WellCostZ": 5000
