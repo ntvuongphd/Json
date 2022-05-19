@@ -260,7 +260,7 @@
                     "Interval": "Yearly",
                     "Property": "CumulativeOilProduction",
                     "TimeStep": -1,
-                    "IsWellProp": false,
+                    "IsWellProp": true,
                     "UseDiscountFactor": true
                 },
                 {
@@ -270,7 +270,7 @@
                     "Interval": "Yearly",
                     "Property": "CumulativeWaterProduction",
                     "TimeStep": -1,
-                    "IsWellProp": false,
+                    "IsWellProp": true,
                     "UseDiscountFactor": true
                 },
                 {
@@ -280,7 +280,7 @@
                     "Interval": "Yearly",
                     "Property": "CumulativeWaterInjection",
                     "TimeStep": -1,
-                    "IsWellProp": false,
+                    "IsWellProp": true,
                     "UseDiscountFactor": true
                 }
             ],
