@@ -21,7 +21,7 @@
             {
                 "Controls": [
                     {
-                        "BHP": 460,
+                        "BHP": 100,
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
@@ -29,7 +29,7 @@
                         "TimeStep": 0
                     },
                     {
-                        "BHP": 460,
+                        "BHP": 100,
                         "IsVariable": true,
                         "Mode": "Rate",
                         "Rate": 2500,
@@ -143,65 +143,65 @@
             {         
                 "Controls": [
                     {
-                        "BHP": 120,
+                        "BHP": 80,
                         "IsVariable": true,
-                        "Mode": "BHP",
+                        "Mode": "Rate",
                         "Rate": 2000,
                         "State": "Open",
                         "TimeStep": 0
                     },
                     {
-                        "BHP": 120,
+                        "BHP": 80,
                         "IsVariable": true,
-                        "Mode": "BHP",
+                        "Mode": "Rate",
                         "Rate": 2000,
                         "State": "Open",
                         "TimeStep": 17056
                     },
                     {
-                        "BHP": 120,
+                        "BHP": 80,
                         "IsVariable": true,
-                        "Mode": "BHP",
+                        "Mode": "Rate",
                         "Rate": 2000,
                         "State": "Open",
                         "TimeStep": 17421
                     },
                     {
-                        "BHP": 120,
+                        "BHP": 80,
                         "IsVariable": true,
-                        "Mode": "BHP",
+                        "Mode": "Rate",
                         "Rate": 2000,
                         "State": "Open",
                         "TimeStep": 17787
                     },
                     {
-                        "BHP": 120,
+                        "BHP": 80,
                         "IsVariable": true,
-                        "Mode": "BHP",
+                        "Mode": "Rate",
                         "Rate": 2000,
                         "State": "Open",
                         "TimeStep": 17863
                     },
                     {
-                        "BHP": 120,
+                        "BHP": 80,
                         "IsVariable": true,
-                        "Mode": "BHP",
+                        "Mode": "Rate",
                         "Rate": 2000,
                         "State": "Open",
                         "TimeStep": 18517
                     },
                     {
-                        "BHP": 120,
+                        "BHP": 80,
                         "IsVariable": true,
-                        "Mode": "BHP",
+                        "Mode": "Rate",
                         "Rate": 2000,
                         "State": "Open",
                         "TimeStep": 18623
                     },
                     {
-                        "BHP": 120,
+                        "BHP": 80,
                         "IsVariable": true,
-                        "Mode": "BHP",
+                        "Mode": "Rate",
                         "Rate": 2000,
                         "State": "Open",
                         "TimeStep": 18655
@@ -242,9 +242,9 @@
                 ]
             },
             {
-                "Max": 650,
-                "Min": 80,
-                "Type": "BHP",
+                "Max": 5000,
+                "Min": 1000,
+                "Type": "Rate",
                 "Wells": [
                     "CER WELL"
                 ]
