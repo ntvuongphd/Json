@@ -234,17 +234,13 @@
     "Optimizer": {
         "Constraints": [
             {
-                "Max": 3200,
-                "Min": 60,
-                "Type": "Rate",
-                "Wells": [
-                    "TOR WELL", "GAS WELL"
-                ]
-            },
-            {
-                "Max": 5000,
-                "Min": 1000,
-                "Type": "Rate",
+                "BoxImin": 10,
+                "BoxImax": 20,
+                "BoxJmin": 6,
+                "BoxJmax": 12,
+                "BoxKmin": 1,
+                "BoxKmax": 3,
+                "Type": "ReservoirBoundary",
                 "Wells": [
                     "CER WELL"
                 ]
