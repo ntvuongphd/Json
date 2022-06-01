@@ -22,7 +22,7 @@
                 "Controls": [
                     {
                         "BHP": 100,
-                        "IsVariable": true,
+                        "IsVariable": false,
                         "Mode": "Rate",
                         "Rate": 2500,
                         "State": "Open",
@@ -30,7 +30,7 @@
                     },
                     {
                         "BHP": 100,
-                        "IsVariable": true,
+                        "IsVariable": false,
                         "Mode": "Rate",
                         "Rate": 2500,
                         "State": "Open",
@@ -38,7 +38,7 @@
                     },
                     {
                         "BHP": 100,
-                        "IsVariable": true,
+                        "IsVariable": false,
                         "Mode": "Rate",
                         "Rate": 2500,
                         "State": "Open",
@@ -46,7 +46,7 @@
                     },
                     {
                         "BHP": 100,
-                        "IsVariable": true,
+                        "IsVariable": false,
                         "Mode": "Rate",
                         "Rate": 2500,
                         "State": "Open",
@@ -54,7 +54,7 @@
                     },
                     {
                         "BHP": 100,
-                        "IsVariable": true,
+                        "IsVariable": false,
                         "Mode": "Rate",
                         "Rate": 2500,
                         "State": "Open",
@@ -87,7 +87,7 @@
                 "Controls": [
                     {
                         "BHP": 100,
-                        "IsVariable": true,
+                        "IsVariable": false,
                         "Mode": "Rate",
                         "Rate": 2500,
                         "State": "Open",
@@ -95,7 +95,7 @@
                     },
                     {
                         "BHP": 100,
-                        "IsVariable": true,
+                        "IsVariable": false,
                         "Mode": "Rate",
                         "Rate": 2500,
                         "State": "Open",
@@ -103,7 +103,7 @@
                     },
                     {
                         "BHP": 100,
-                        "IsVariable": true,
+                        "IsVariable": false,
                         "Mode": "Rate",
                         "Rate": 2500,
                         "State": "Open",
@@ -111,7 +111,7 @@
                     },
                     {
                         "BHP": 100,
-                        "IsVariable": true,
+                        "IsVariable": false,
                         "Mode": "Rate",
                         "State": "Open",
                         "Rate": 2500,
@@ -144,7 +144,7 @@
                 "Controls": [
                     {
                         "BHP": 80,
-                        "IsVariable": true,
+                        "IsVariable": false,
                         "Mode": "Rate",
                         "Rate": 2000,
                         "State": "Open",
@@ -152,7 +152,7 @@
                     },
                     {
                         "BHP": 80,
-                        "IsVariable": true,
+                        "IsVariable": false,
                         "Mode": "Rate",
                         "Rate": 2000,
                         "State": "Open",
@@ -160,7 +160,7 @@
                     },
                     {
                         "BHP": 80,
-                        "IsVariable": true,
+                        "IsVariable": false,
                         "Mode": "Rate",
                         "Rate": 2000,
                         "State": "Open",
@@ -168,7 +168,7 @@
                     },
                     {
                         "BHP": 80,
-                        "IsVariable": true,
+                        "IsVariable": false,
                         "Mode": "Rate",
                         "Rate": 2000,
                         "State": "Open",
@@ -176,7 +176,7 @@
                     },
                     {
                         "BHP": 80,
-                        "IsVariable": true,
+                        "IsVariable": false,
                         "Mode": "Rate",
                         "Rate": 2000,
                         "State": "Open",
@@ -184,7 +184,7 @@
                     },
                     {
                         "BHP": 80,
-                        "IsVariable": true,
+                        "IsVariable": false,
                         "Mode": "Rate",
                         "Rate": 2000,
                         "State": "Open",
@@ -192,7 +192,7 @@
                     },
                     {
                         "BHP": 80,
-                        "IsVariable": true,
+                        "IsVariable": false,
                         "Mode": "Rate",
                         "Rate": 2000,
                         "State": "Open",
@@ -200,7 +200,7 @@
                     },
                     {
                         "BHP": 80,
-                        "IsVariable": true,
+                        "IsVariable": false,
                         "Mode": "Rate",
                         "Rate": 2000,
                         "State": "Open",
@@ -214,13 +214,13 @@
                 "WellModel": "Projection",
                 "SplinePointArray": [
                     {
-                        "IsVariable": false,
+                        "IsVariable": true,
                         "x": 600.0,
                         "y": 3800.0,
                         "z": 4332.46
                     },
                     {
-                        "IsVariable": false,
+                        "IsVariable": true,
                         "x": 600.0,
                         "y": 3800.0,
                         "z": 4412.46
